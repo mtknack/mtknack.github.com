@@ -1,0 +1,67 @@
+*{margin: 0; padding: 0;}
+
+
+.header_1{
+    display: flex;
+    margin: 0px auto;
+}
+
+.logo{
+    position: absolute;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 120px;
+    left: 50px;
+}
+
+.redes-1{
+    z-index: 2;
+    position: absolute;
+    width: 120px;
+    left: 80px;
+    display: inline-grid;  
+}
+
+.redes-2{
+    z-index: 2;
+    position: absolute;
+    width: 120px;
+    left: 368px;
+    display: inline-grid;
+}
+.texto-1{
+    z-index: 2;
+    position: absolute;
+    width: 400px;
+    left: 140px;
+    display: inline-grid;
+    line-height: 2.6;
+    color: #3f81cd;
+}
+
+.texto-2{
+    z-index: 2;
+    position: absolute;
+    width: 500px;
+    left: 428px;
+    display: inline-grid;
+    line-height: 2.6;
+    color: #3f81cd;
+}
+
+.foto{
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    padding-top: 250px;
+}
+
+.biografia{
+    position: absolute;
+    z-index: 1;
+    width: 900px;
+    left: 250px;
+    padding-top: 250px;
+}
